@@ -3,14 +3,14 @@
 }
 
 body {
-background-color: #e6e9fb;
+background-color: #d0cbf3;
 height: 100vh;
 font-family: sans-serif; 
 }
 
 .card {
 text-align: center;
-background-color: white;
+background-color: #1a1832;
 position: absolute;
 border-radius: 7px;
 margin: auto;
@@ -23,20 +23,73 @@ height: 300px;
 }
 
 header {
-    width: 600px;
+    width: 500px;
+    color: whitesmoke;
+    position: relative;
+    left: 15%;
+    top: 5%
 }
 
-h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .review {
-    padding: 15px;
+    padding: 12px;
     margin: 8px;
-    font-size: large;
-    
-    
-    
+    margin-bottom: 0%;
+    background-color: #1a2036;
+    color: #b1b9d8;
+    border: 3px solid #242b43;
+    border-radius: 5px; 
+    font-size: larger;
+}
+.review:hover {
+    border-color: lightslategrey;
+}
+.review-p  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 0%;
+    font-size: small;
+    color: white;
+}
+.review-buttons {
+    padding-top: 30px;
+}
+.submit-cancel {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+}
+
+.submit, .cancel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: #1a2036;
+    color: #b1b9d8;
+    border: 3px solid #242b43;
+    border-radius: 5px; 
+    color: aliceblue;
+}
+
+.cancel {
+    border-color: #3e307a;
+}
+
+.submit {
+    background-color: #7a58F4;
+}
+
+.cancel:hover {
+    background-color: #3e307a;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #7a58F4;
 }
